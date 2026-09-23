@@ -224,7 +224,7 @@ nombre, por lo que el comando debe citarlo:
 
 ```sh
 cd SERVER
-cc service.c 'adapter_ svc.c' utils.c -o server
+cc service.c 'adapter_svc.c' utils.c -o server
 ./server
 ```
 
