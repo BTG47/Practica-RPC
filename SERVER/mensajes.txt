@@ -1,0 +1,1 @@
+¡Prueba de estrés RPC! 🚀 Verificación de buffers dinámicos & codificación UTF-8 entre macOS y Windows. Símbolos especiales: €100 / $50.00, 100%, #1, @Redes. Caracteres latinos: "El pingüino leyó la canción del año en el cigüeñal". Símbolos matemáticos: ∑(x + y) ≥ 0, α ≠ β. ¿Funcionará el terminador nulo \0 sin generar basura en memoria? 💻✨

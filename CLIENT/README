@@ -1,0 +1,12 @@
+Compilar desde CLIENT en Linux/macOS:
+cc client.c adapter_clnt.c utils.c -o client
+
+Compilar desde CLIENT en Windows con MinGW-w64:
+gcc client.c stub.c utils.c -o client.exe -lws2_32
+
+Ejecutar (primero iniciar el servidor):
+./client 127.0.0.1 guardar "Diego Flores" "Reforma" 123 "Puebla"
+./client 127.0.0.1 recuperar 1
+
+En Windows usar .\client.exe; para dos equipos sustituir 127.0.0.1
+por la IPv4 de la computadora que ejecuta el servidor.

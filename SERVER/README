@@ -1,0 +1,11 @@
+Compilar desde SERVER en Linux/macOS:
+cc service.c adapter_svc.c utils.c -o server
+
+Compilar desde SERVER en Windows con MinGW-w64:
+gcc service.c skeleton.c utils.c -o server.exe -lws2_32
+
+Ejecutar desde SERVER:
+./server
+En Windows: .\server.exe
+
+El servidor escucha en TCP 8888 y guarda personas.dat en el directorio actual.
